@@ -1,0 +1,720 @@
+body{
+	font-size: 13px;
+	background: url('../../img/wood.jpg');
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+    -webkit-appearance: none;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ccc; 
+    -webkit-box-shadow: inset 0 0 6px #ccc; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+#loading{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 99;
+    text-align: center;
+}
+
+#loading img {
+	margin-top: 120px;
+}
+.no-margin{
+	margin: 0;
+	padding: 0;
+}
+
+#guid-book {
+    margin: auto;
+}
+
+.page{
+	float: left;
+	width: 100%;
+    background: #fff;
+}
+
+.padding-15px {
+    /*padding: 15px;*/
+}
+
+.page-wrapper {
+    /*background: #fff !important;*/
+    overflow: scroll !important;
+}
+
+.row{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	border-bottom: solid 4px #62BD02;
+	margin-top: 20px;
+}
+.sub-text-top{
+	text-align: right;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.content-text-page-2{
+	display: none;
+	margin-top: 50px;
+}
+.text-page-2{
+	font-size: 13px;
+}
+.sub-title-page-2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'MinionPro-Bold';
+	font-style: italic;
+	font-weight: bold;
+}
+.sub-text-page-2{
+	display: none;
+	margin-top: 350px;
+	font-weight: bold;
+	font-size: 12px;
+	font-style: italic;
+}
+.text-top-head-page-3{
+	margin-top: 20px;
+	font-family: 'MinionPro-Bold';
+	font-weight: bold;
+}
+.text-h3-p3 {
+}
+.menu-lft-page-3{
+    float: left;
+    margin-top: 20px;
+}
+.menu-lft-page-3 li{
+	list-style: none;
+	border-bottom: solid 3px #ccc;
+	float: left;
+    width: 100%;
+}
+.menu-lft-page-3 li strong{
+	font-size: 40px;
+	float: left;
+}
+.menu-lft-page-3 li p {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+.menu-lft-page-3 li span.text-menu {
+	float: left;
+	padding-top: 9px;
+    margin-left: 7px;
+}
+.text-intro-page-2 {
+	display: none;
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    font-size: 58px;
+    font-family: 'MinionPro-Bold';
+    vertical-align: middle;
+    margin: auto;
+    left: 10%;
+    font-weight: bold;
+    color: #96c22c;
+}
+.text-intro-page-8 {
+	text-align: center;
+    position: absolute;
+    top: 48%;
+    font-size: 45px;
+    font-family: 'MinionPro-Bold';
+    vertical-align: middle;
+    margin: auto;
+    left: 10%;
+    font-weight: bold;
+    color: #96c22c;
+    text-transform: uppercase;
+}
+.sub-text-intro-page-2 {
+	display: none;
+	text-transform: uppercase;
+    font-size: 16px;
+    position: absolute;
+    top: 62%;
+    left: 23%;
+    color: #fff;
+}
+.sub-text-intro-page-8 {
+	text-transform: uppercase;
+    font-size: 16px;
+    position: absolute;
+    top: 57%;
+    left: 19%;
+    color: #fff;
+}
+.sub-title-page-4{
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+.sub-title-page-4 p{
+	margin-bottom: 0;
+}
+.tlt-mid-page-4 {
+	display: none;
+}
+.tlt-mid-page-4 h2{
+	font-size: 22px;
+    font-weight: bold;
+    font-family: MyriadPro;
+    font-style: italic;
+    padding: 10px;
+}
+.tlt-page-5 {
+	width: 65%;
+	margin: auto;
+}
+.tlt-page-5 h1{
+	text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.both-page-5 {
+	height: 5px;
+    border-bottom: solid #96c22c;
+    width: 80px;
+    margin: auto;
+}
+.content-text-page-5{
+
+}
+.content-text-page-5 h1 {
+	    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+.content-text-page-5 p {
+	width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.text-intro-page-6{
+	font-family: serif;
+	text-align: center;
+}
+.text-intro-page-6 h1{
+ 	font-weight: bold;
+    font-style: italic;
+    font-size: 46px;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    color: #fff;
+}
+.text-intro-page-6 h2{
+ 	font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    color: #fff;
+}
+.img-tlt-page-6 {
+ 	margin-top: 15px;
+}
+.img-tlt-page-6  p {
+	font-family: serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: #979797;
+}
+.titlte-page-10 h1 {
+	font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #979797;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.titlte-page-10 h2 {
+	font-size: 26px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    color: #979797;
+    margin-top: -4px;
+}
+.list-page-14 {
+	list-style: none;
+	padding-left: 15px;
+}
+.list-page-14 li {
+	padding-bottom: 2px;
+    border-bottom: solid 2px #ccc;
+    padding-top: 2px;
+}
+.list-page-15-1 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+}
+.list-page-15-2 li {
+	border-bottom: solid 1px #fff;
+}
+.list-page-15-2 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px;
+    background: #03038C;
+    color: #fff;
+}
+.title-img-page-15 {
+	font-size: 27px;
+    font-family: serif;
+    font-weight: bold;
+    position: absolute;
+    top: 49%;
+    left: 5%;
+    color: #fff;
+}
+.list-page-16 {
+	list-style: none;
+	padding: 0;
+	    font-size: 12px;
+    line-height: 23px;
+}
+.list-page-16 li {
+	border-bottom: solid 1px;
+}
+.list-page-17-1 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+}
+.list-page-17-2 li {
+	border-bottom: solid 1px #fff;
+}
+.list-page-17-2 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px;
+    background: #03038C;
+    color: #fff;
+    text-align: center;
+}
+.title-img-page-17 {
+	font-size: 27px;
+    font-family: serif;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: #000;
+}
+.modal-page-17 {
+	position: absolute;
+    z-index: 100;
+    top: -214px;
+    font-size: 10px;
+    /* color: #fff; */
+    padding: 10px;
+    background: #fff;
+}
+.medal-page-17 {
+	width: 100px;
+    position: absolute;
+    top: 101px;
+    right: 29px;
+    z-index: 1000;
+    transform: rotate(-18deg);
+}
+.list-page-18 {
+	list-style: none;
+	padding: 0;
+	    font-size: 12px;
+    line-height: 23px;
+}
+.list-page-18 li {
+	border-bottom: solid 1px;
+}
+.title-img-page-19 {
+	font-size: 27px;
+    font-family: serif;
+    font-weight: bold;
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    color: #000;
+}
+.list-page-19-1 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+}
+.list-page-19-2 li {
+	border-bottom: solid 1px #fff;
+}
+.list-page-19-2 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px;
+    background: #03038C;
+    color: #fff;
+}
+.list-page-20 {
+	list-style: none;
+	padding: 0;
+	    font-size: 12px;
+    line-height: 23px;
+}
+.list-page-20 li {
+	border-bottom: solid 1px;
+}
+.list-page-21 {
+	list-style: none;
+	padding: 0;
+	    font-size: 12px;
+    line-height: 23px;
+}
+.list-page-21 li {
+	border-bottom: solid 1px;
+}
+.list-page-21-2 li {
+	border-bottom: solid 1px #fff;
+}
+.list-page-21-2 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px;
+    background: #03038C;
+    color: #fff;
+}
+.title-page-21{
+	margin-top: -41px;
+    font-family: serif;
+    font-weight: bold;
+}
+.title-page-21 h1 {
+	font-weight: bold;
+	margin-bottom: 0;
+	color: #fff;
+}
+.title-page-21 h2 {
+	font-weight: bold;
+	margin-top: 0;
+	font-size: 38px;
+}
+.title-page-22{
+	margin-top: -41px;
+    font-family: serif;
+    font-weight: bold;
+}
+.title-page-22 h1 {
+	font-weight: bold;
+	margin-bottom: 0;
+	color: #fff;
+}
+.title-page-22 h2 {
+	font-weight: bold;
+	margin-top: 0;
+	font-size: 38px;
+}
+.list-page-22 {
+	list-style: none;
+	padding: 0;
+	 font-size: 12px;
+    line-height: 23px;
+}
+.list-page-22 li {
+	border-bottom: solid 1px;
+}
+.list-page-22-2 li {
+	border-bottom: solid 1px #fff;
+}
+.list-page-22-2 {
+	list-style: none;
+    padding-left: 0px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px;
+    background: #03038C;
+    color: #fff;
+}
+.text-intro-page-26 {
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    font-size: 58px;
+    font-family: 'MinionPro-Bold';
+    vertical-align: middle;
+    margin: auto;
+    left: 10%;
+    font-weight: bold;
+    color: #96c22c;
+}
+.sub-text-intro-page-26 {
+	text-transform: uppercase;
+    font-size: 16px;
+    position: absolute;
+    top: 62%;
+    left: 23%;
+    color: #fff;
+}
+.title-page-27 h1 {
+	font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    position: absolute;
+    top: 34%;
+    left: 7%;
+    color: #fff;
+}
+.list-page-27 {
+	list-style: none;
+    line-height: 20px;
+    padding: 0;
+    font-size: 11px;
+}
+.list-page-27 li img {
+	width: 25px;
+}
+.title-page-28 h1 {
+	font-size: 27px;
+    font-weight: bold;
+    font-family: serif;
+    color: #000;
+    text-align: center;
+}
+.text-left-page-27 {
+	border-right: solid #ccc;
+}
+.text-left-page-27 strong {
+	text-transform: uppercase;
+    font-size: 16px;
+    font-family: Tahoma;
+}
+.text-right-page-27 strong {
+	text-transform: uppercase;
+    font-size: 16px;
+    font-family: Tahoma;
+}
+.bottom-page-27 {
+	text-align: right;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: #979797;
+    font-size: 16px;
+}
+.bottom-page-27 img {
+	width: 45px;
+	margin-left: 5px;
+}
+.bottom-page-28 {
+	text-align: right;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: #979797;
+    font-size: 16px;
+}
+.bottom-page-28 img {
+	width: 45px;
+	margin-left: 5px;
+}
+.content-text-page-28 {
+	padding: 15px;
+}
+.content-text-page-28 img {
+	width: 25px;
+	margin-right: 5px;
+}
+.text-page-29 {
+	background-color: rgba(255, 255, 255, 0.6);
+    /*opacity: 0.4;*/
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding: 15px;
+}
+.text-page-29 h1 {
+	font-family: serif;
+	margin-top: 5px;
+	text-align: center;
+}
+.text-page-29 h2 {
+	margin-bottom: 0;
+	font-family: serif;
+	margin-top: 0;
+}
+.text-page-29 p {
+	font-size: 11px;
+}
+.page-30-left h1 {
+	font-size: 17px;
+    font-weight: bold;
+    font-family: serif;
+}
+.page-30-left p {
+	font-size: 12px;
+}
+.page-30-right h1 {
+	font-size: 17px;
+    font-weight: bold;
+    font-family: serif;
+}
+.page-30-right p {
+	font-size: 12px;
+}
+.title-page-31 {
+	font-weight: bold;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+    width: 210px;
+    margin: auto;
+    margin-top: 30px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.both-page-21 {
+	width: 70px;
+    margin: auto;
+    height: 3px;
+    background: #62BD02;
+}
+.img-360-page-16:hover + .hover-img-360-page-16 {
+	display: block;
+}
+.hover-img-360-page-16 {
+	display: none;
+	position: absolute;
+    top: 80%;
+    left: 38%;
+}
+.hover-img-360-page-16 img {
+	 width: 150px;
+}
+.p360-page-18:hover + .hover-img-360-page-18 {
+	display: block;
+}
+.hover-img-360-page-18 {
+	display: none;
+	position: absolute;
+    top: 88%;
+    left: 38%;
+}
+.hover-img-360-page-18 img {
+	 width: 150px;
+}
+
+.p360-page-20:hover + .hover-img-360-page-20 {
+	display: block;
+}
+.hover-img-360-page-20 {
+	display: none;
+	position: absolute;
+    top: 78%;
+    left: 38%;
+}
+.hover-img-360-page-20 img {
+	 width: 150px;
+}
+.text-left-page-3, .text-right-page-3 {
+	display: none;
+}
+.div-left-page-6, .div-right-page-6 {
+	display: none;
+}
+.img-page-4 {
+	display: none;
+}
+.hidden-class {
+	display: none;
+}
+.titlte-page-10, .content-page-10, .list-page-10 {
+	display: none;
+}
+.img-page-14, .list-page-14 {
+	display: none;
+}
+.img-1-page-15, .img-2-page-15, .text-1-page-15, .text-2-page-15, .text-3-page-15 {
+	display: none;
+}
+.left-page-16 , .right-page-16, .img-page-16 {
+	display: none;
+}
+.modal-page-17 , .text-1-page-17, .list-page-17-1, .list-page-17-2 {
+	display: none;
+}
+.left-page-18, .right-page-18, .img-page-18 {
+	display: none;
+}
+.img-1-page-19, .img-2-page-19, .text-1-page-19, .list-page-19-1, .list-page-19-2 {
+	display: none;
+}
+.text-content-page-20, .video-page-20, .list-page-20, .img-page-20 {
+	display: none;
+}
+.text-content-page-21, .div-right-page-21, .list-page-21 {
+	display: none;
+}
+.text-content-page-22, .list-page-22, .div-left-page-22 {
+	display: none;
+}
+.text-intro-page-26, .sub-text-intro-page-26 {
+	display: none;
+}
+.text-left-page-27, .text-right-page-27 {
+	display: none;
+}
+.content-text-page-28 {
+	display: none;
+}
+.text-page-29 {
+	display: none;
+}
+.page-30-left , .page-30-right {
+	display: none;
+}
