@@ -123,6 +123,7 @@ $(function() {
     height: 680,
     when: {
       turned: function(event, page, pageObj) {
+        console.log(pageObj);
         if (page == 2) {
           $('.content-text-page-2').show('slide', { direction: "left" }, 1000);
           $('.sub-text-page-2').show('slide', { direction: "right" }, 1000);
