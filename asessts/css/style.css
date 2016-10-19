@@ -25,7 +25,9 @@ body{
     margin: auto;
     overflow: hidden;
 }
-
+.padding-15px {
+    /*padding: 15px;*/
+}
 .page-wrapper {
     overflow: scroll !important;
 }
